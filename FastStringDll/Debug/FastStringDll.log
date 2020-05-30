@@ -1,0 +1,3 @@
+﻿  FastString.cpp
+  LINK : 没有找到 C:\Users\17218\source\repos\FastStringDll\Debug\FASTSTRINGDLL.dll 或上一个增量链接没有生成它；正在执行完全链接
+LINK : fatal error LNK1104: 无法打开文件“C:\Users\17218\source\repos\FastStringDll\Debug\FASTSTRINGDLL.dll”

@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+  FastString.cpp
+c:\users\17218\source\repos\faststringdll\faststringdll\faststring.cpp(36): error C2259: “FastString”: 不能实例化抽象类
+  c:\users\17218\source\repos\faststringdll\faststringdll\faststring.cpp(36): note: 由于下列成员:
+  c:\users\17218\source\repos\faststringdll\faststringdll\faststring.cpp(36): note: “void IFastString::Delete(void)”: 是抽象的
+  c:\users\17218\source\repos\faststringdll\faststringdll\ifaststring.h(7): note: 参见“IFastString::Delete”的声明
+  FastStringDll.cpp
+  IFastString.cpp

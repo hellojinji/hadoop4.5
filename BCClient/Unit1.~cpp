@@ -1,0 +1,27 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include "FastString.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+        : TForm(Owner)
+{
+        FastString *pFS=CreateObject("fdfdd");
+      int len=  pFS->Length() ;
+      ShowMessage(AnsiString(len));
+       ShowMessage(AnsiString(pFS->fb()));
+      ShowMessage(AnsiString(pFS->fa()));
+
+
+
+	//int res = pFS->Length();
+}
+//---------------------------------------------------------------------------
+ 
